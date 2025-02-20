@@ -200,6 +200,7 @@
 }
 
 .button__text {
+  font-family: var(--accent-font);
   font-size: 14px;
   color: #fff;
   position: relative;
@@ -226,10 +227,10 @@
 }
 
 .footer__diskette-icon {
-  aspect-ratio: 1 / 1;
-  block-size: 20px;
-  display: block;
-  margin-inline-end: 10px;
+  /* mix-blend-mode: difference; */
+  /* я реально не понимаю как исправить ошибку
+  при появлении оно картинка убиирается */
+
 }
 
 .footer__button {
@@ -240,9 +241,9 @@
   border: 2px solid #000;
   margin: 50px 25px 50px 30px;
   padding: 16px 20px;
-  background-color: #fff;
   cursor: pointer;
   position: relative;
+  gap: 10px;
 }
 
 .footer__button:focus {
