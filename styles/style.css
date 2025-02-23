@@ -356,9 +356,8 @@
 
 @media (width <= 375px) {
   .footer__diskette-icon {
-    block-size: 34px;
-    aspect-ratio: 1 / 1;
-    padding-block-end: 10px;
+    block-size: 28px;
+    inline-size: 28px;
   }
 
   .footer__button {
