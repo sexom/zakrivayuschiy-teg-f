@@ -227,10 +227,10 @@
 }
 
 .footer__diskette-icon {
-  /* mix-blend-mode: difference; */
-  /* я реально не понимаю как исправить ошибку
-  при появлении оно картинка убиирается */
-
+  color: #fff;
+  mix-blend-mode: difference;
+  block-size: 21px;
+  inline-size: 21px;
 }
 
 .footer__button {
@@ -293,8 +293,8 @@
 
 
 .diskette-icon-dialog {
-  aspect-ratio: 1 / 1;
-  block-size: 40px;
+  width: 39px;
+  height: 39px;
 }
 
 .diskette-icon-container {
