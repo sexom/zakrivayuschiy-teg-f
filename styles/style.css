@@ -355,6 +355,10 @@
 
 
 @media (width <= 375px) {
+  .clamp {
+    width: 100vw
+  }
+  
   .footer__diskette-icon {
     block-size: 28px;
     inline-size: 28px;
